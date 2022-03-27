@@ -1,7 +1,7 @@
 # van-Emde-Boas
 This is my work-in-progress implementation of van Emde Boas Trees. Note that arrays in this program are supposed to be bit arrays.
 
-van Emde Boas trees are a non-binary tree in which all operations are O(log log u) time where u is the universe.
+van Emde Boas trees are a non-binary tree in which all operations are O(log log u) time where u is the size of the universe.
 It works by grouping the universe into √u clusters of √u size. There is also a corresponding summary vector (a bit array of √u size) that indicates whether the corresponsing cluster is empty. 
 
 To learn more about van Emde Boas trees check out my inforgraphic at this link:
